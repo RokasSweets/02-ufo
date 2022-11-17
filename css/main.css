@@ -3,16 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
-
-.container {
-    background-color: #4F79E5;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    font-family: 'Roboto', sans-serif;}
 
 h1 {
     font-size: 80px;
@@ -38,10 +29,8 @@ p {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     border-radius: 10px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}
 
 .button:hover {
     color: white;
-    background-color: #fede3c;
-}
+    background-color: #fede3c;}
