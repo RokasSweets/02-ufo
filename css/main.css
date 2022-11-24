@@ -5,19 +5,42 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;}
 
-h1 {
-    font-size: 80px;
-    color: white;}
+body {
+    background-color: #089992;
+}
 
-p {
+main {
+    width: 50%;
+    display: inline-block;
+    margin-top: 170px;
+    margin-left: 25%;
+}
+
+main > div {
+    width: 40%;
+    float: left;
+}
+
+main > img {
+    float: right;
+    width: 350px;
+    height: 350px;
+}
+
+.main-title {
+    font-size: 80px;
+    color: white;
+    margin-top: 55px;}
+
+.main-content {
     color: white;
     font-size: 40px;
     font-weight: 900;
-    text-transform: uppercase;}
+    text-transform: uppercase;
+    margin-top: 10px;}
 
 .button {
     background-color: #048389;
-    border: 300px; color: black;
     color: white;
     padding: 20px 34px;
     text-align: center;
@@ -26,6 +49,8 @@ p {
     font-size: 20px;
     margin: 4px 2px;
     cursor: grab;
+    text-transform: uppercase;
+    margin-top: 40px;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     border-radius: 10px;
